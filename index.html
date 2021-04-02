@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
     <title>Component Library</title>
 </head>
 <body>
@@ -17,23 +18,24 @@
     <h2>Second biggest heading</h2>
 
     <p>Normal text in a paragraph. Free flowing.</p>
+    <p>This section have<strong> a bold text</strong></p>
     <small>This is relatively smaller text</small>
 
     <hr>
     <h2>@containers</h2>
 
     <h3>Fluid container</h3>
-    <div>This is a fluid container and this will go till the end of the page.</div>
+    <div class='container'>This is a fluid container and this will go till the end of the page.</div>
 
     <h3>center container</h3>
-    <div>This is a centered container and it will go till specified width.</div>
+    <div class='center-container container'>This is a centered container and it will go till specified width.</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href='/'>Primary link</a>
-    <a href='/'>Secondary link</a>
+    <a class='primary-link link' href='/'>Primary link</a>
+    <a class='link secondary-link' href='/'>Secondary link</a>
 
     <hr>
 
@@ -77,7 +79,7 @@
     <h2>@header</h2>
       
     <header>
-        <img src='images/think.svg' />
+        <img src='images/green-think.svg' />
         <h1>heading</h1>
     </header> 
 
