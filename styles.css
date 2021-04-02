@@ -2,6 +2,10 @@
 
 :root{
     --primary-color: #2f855a;
+    --teal-color: #38B2AC;
+    --blue-color: #BEE3F8;
+    --indigo-color: #667EEA;
+    --gray-color: #A0AEC0;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -74,4 +78,20 @@ hr{
 
 .navbar .link-active{
     font-weight: bold;
+}
+
+/** header **/
+
+.mega{
+    padding: 2rem;
+}
+
+.mega .mega-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.mega .mega-heading{
+    color: var(--gray-color);
 }
