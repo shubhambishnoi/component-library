@@ -40,6 +40,7 @@ hr{
     margin: 2rem 0rem;
 }
 
+/** lists **/
 .list-no-bullets{
     list-style: none;
 }
@@ -47,4 +48,30 @@ hr{
 .list-inline{
     padding: 0rem 0.5rem;
     display: inline;
+}
+
+/** navigation **/
+
+.navbar{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navbar .nav-brand{
+    font-weight: bold;
+    font-size: large;
+}
+.navbar .link{
+    color: white;
+    
+}
+
+.navbar .nav-list{
+    text-align: right;
+}
+
+.navbar .link-active{
+    font-weight: bold;
 }
