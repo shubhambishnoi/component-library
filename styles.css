@@ -95,3 +95,35 @@ hr{
 .mega .mega-heading{
     color: var(--gray-color);
 }
+
+/** sections **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.gray{
+    background-color: var(--gray-color);
+}
+
+/** footer **/
+
+.footer{
+    padding: 2rem 0rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
