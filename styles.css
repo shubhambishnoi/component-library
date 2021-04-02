@@ -39,3 +39,12 @@ body{
 hr{
     margin: 2rem 0rem;
 }
+
+.list-no-bullets{
+    list-style: none;
+}
+
+.list-inline{
+    padding: 0rem 0.5rem;
+    display: inline;
+}
