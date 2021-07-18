@@ -1,2 +1,2 @@
 # component-library
-Live Demo @ stylolib.netlify.app
+Live Demo @ https://stylolib.netlify.app
